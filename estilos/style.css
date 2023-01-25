@@ -7,14 +7,61 @@ body {
 }
 
 header {
+    width: 100%;
+    height: 90px;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
     font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.cadastro {
+    background-color: #CCC;
+    width: 70%;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cadastro input {
+    width: 350px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid #CCC;
+    outline: none;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.cadestro-int {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
 }
 
 .logo {
+    width: 100%;
+    height: 200px;
     display: flex;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 .logo img {
@@ -22,13 +69,17 @@ header {
     height: 200px;
 }
 
-.cadastro {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.cadastri-int {
+.botoes {
     display: flex;
     justify-content: space-between;
+}
+
+.botoes input {
+    width: 170px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
 }
